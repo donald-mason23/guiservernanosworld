@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle("Main Window")
+        self.setWindowTitle("Nanos World Server Panel")
         self.setGeometry(100, 100, 800, 600)
 
         console_label = QLabel("Console:")
